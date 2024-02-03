@@ -31,7 +31,7 @@ The meticulous analysis relied on detailed stock price data from 2019 for constr
 | VRTX         | Vertex Pharmaceuticals Incorporated | Biopharmaceuticals          | 7.12%            |
 | XEL          | Xcel Energy Inc         | Utility Holding                          | 8.92%            |
 
-#### Method 2: Mixed-Integer Programming Approach
+#### Method 2: Mixed-Integer Programming Approach (optimimzed portfolio after 1 hour limit)
 
 | Stock Symbol | Company Name            | Industry/Domain                          | Allocated Weight |
 | ------------ | ----------------------- | ---------------------------------------- | ---------------- |
