@@ -21,6 +21,27 @@ The meticulous analysis relied on detailed stock price data from 2019 for constr
 - **Diminishing Returns**: Incremental analysis revealed diminishing returns on accuracy beyond a certain portfolio size, indicating an optimal range for stock inclusion.
 - **Computational Insights**: Despite higher computational demands, the MIP approach showed promise in selecting and weighting stocks for emulation.
 
+#### Method 1: Traditional Optimization Approach
+
+| Stock Symbol | Company Name            | Industry/Domain                          | Allocated Weight |
+| ------------ | ----------------------- | ---------------------------------------- | ---------------- |
+| LBTYK        | Liberty Global PLC      | Multinational Telecommunications         | 4.89%            |
+| MXIM         | Maxim Integrated        | Analog and Mixed-Signal Integrated Circuits | 21.04%          |
+| MSFT         | Microsoft Corporation   | Multinational Technology Corporation     | 58.04%           |
+| VRTX         | Vertex Pharmaceuticals Incorporated | Biopharmaceuticals          | 7.12%            |
+| XEL          | Xcel Energy Inc         | Utility Holding                          | 8.92%            |
+
+#### Method 2: Mixed-Integer Programming Approach
+
+| Stock Symbol | Company Name            | Industry/Domain                          | Allocated Weight |
+| ------------ | ----------------------- | ---------------------------------------- | ---------------- |
+| AMZN         | Amazon.com, Inc.        | E-commerce and Cloud Computing           | 25.01%           |
+| ADI          | Analog Devices, Inc.    | Semiconductor                            | 11.38%           |
+| AAPL         | Apple Inc.              | Technology and Consumer Electronics      | 19.17%           |
+| MSFT         | Microsoft Corporation   | Multinational Technology Corporation     | 28.99%           |
+| MDLZ         | Mondelez International, Inc. | Snack Foods                          | 15.46%           |
+
+
 ### Insights and Recommendations
 - **Optimal Portfolio Construction**: Identified an optimal number of stocks that balance tracking accuracy with investment costs, suggesting a strategic portfolio size for emulation.
 - **Adaptive Strategy**: Highlighted the importance of ongoing model updates to adapt to market dynamics, ensuring sustained emulation effectiveness.
